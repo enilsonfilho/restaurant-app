@@ -9,7 +9,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Vamos cozinhar?',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
+        colorScheme: ColorScheme.fromSwatch().copyWith(
+          secondary: Colors.amber,
+        ),
+        fontFamily: 'Raleway',
+        textTheme: ThemeData.light().textTheme.copyWith(
+          subtitle1: const TextStyle(
+            fontSize: 20,
+            fontFamily: 'RobotoCondensed',
+          )
+        ),
       ),
       home: CategoriesScreen(),
     );
