@@ -1,8 +1,9 @@
+import 'package:app_restaurante/screens/categories_meals_screen.dart';
 import 'package:app_restaurante/screens/categories_screen.dart';
 import 'package:flutter/material.dart';
- 
+
 void main() => runApp(MyApp());
- 
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -16,13 +17,15 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Raleway',
         canvasColor: Color.fromRGBO(255, 254, 229, 1),
         textTheme: ThemeData.light().textTheme.copyWith(
-          subtitle1: const TextStyle(
-            fontSize: 20,
-            fontFamily: 'RobotoCondensed',
-          )
-        ),
+              subtitle1: const TextStyle(
+              fontSize: 20,
+              fontFamily: 'RobotoCondensed',
+            )),
       ),
       home: CategoriesScreen(),
+      routes: {
+        '/categories-meals': (ctx) => CategoriesMealsScreen(),
+      },
     );
   }
 }
