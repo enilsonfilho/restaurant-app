@@ -61,16 +61,34 @@ class MealItem extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(20),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
-                  const Icon(
-                    Icons.schedule
+                  Row(
+                    children: <Widget>[
+                      const Icon(
+                        Icons.schedule
+                      ),
+                      const SizedBox(
+                        width: 6,
+                      ),
+                      Text(
+                        '${meal.duration} min',
+                      )
+                    ],
                   ),
-                  const SizedBox(
-                    width: 6,
+                  Row(
+                    children: <Widget>[
+                      const Icon(
+                        Icons.work
+                      ),
+                      const SizedBox(
+                        width: 6,
+                      ),
+                      Text(
+                        meal.complexityText
+                      ),
+                    ],
                   ),
-                  Text(
-                    '${meal.duration} min',
-                  )
                 ],
               ),
             )
