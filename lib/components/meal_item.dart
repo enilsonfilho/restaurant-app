@@ -66,7 +66,7 @@ class MealItem extends StatelessWidget {
                   Row(
                     children: <Widget>[
                       const Icon(
-                        Icons.schedule
+                        Icons.schedule,
                       ),
                       const SizedBox(
                         width: 6,
@@ -79,13 +79,26 @@ class MealItem extends StatelessWidget {
                   Row(
                     children: <Widget>[
                       const Icon(
-                        Icons.work
+                        Icons.work,
                       ),
                       const SizedBox(
                         width: 6,
                       ),
                       Text(
-                        meal.complexityText
+                        meal.complexityText,
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                      const Icon(
+                        Icons.attach_money,
+                      ),
+                      const SizedBox(
+                        width: 6,
+                      ),
+                      Text(
+                        meal.costText,
                       ),
                     ],
                   ),
