@@ -72,6 +72,8 @@ class MealDeatilScreen extends StatelessWidget {
                     ListTile(
                       leading: CircleAvatar(
                         child: Text('${index+1}'),
+                        backgroundColor: Colors.pink,
+                        foregroundColor: Colors.white,
                       ),
                       title: Text(meal.steps[index]),
                     ),
