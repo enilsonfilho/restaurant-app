@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
               fontSize: 20,
               fontFamily: 'RobotoCondensed',
             )),
-      ),
+        ),
       routes: {
         AppRoutes.HOME: (ctx) => CategoriesScreen(), // Rota principal (home)
         AppRoutes.CATEGORIES_MEALS: (ctx) => CategoriesMealsScreen(),
