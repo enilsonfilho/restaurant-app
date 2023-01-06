@@ -1,5 +1,4 @@
 import 'package:app_restaurante/screens/categories_meals_screen.dart';
-import 'package:app_restaurante/screens/categories_screen.dart';
 import 'package:app_restaurante/screens/meal_detail_screen.dart';
 import 'package:app_restaurante/screens/tabs_screen.dart';
 import 'package:app_restaurante/utils/app_routers.dart';
