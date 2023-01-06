@@ -1,3 +1,4 @@
+import 'package:app_restaurante/components/main_drawer.dart';
 import 'package:app_restaurante/screens/categories_screen.dart';
 import 'package:app_restaurante/screens/favorite_screen.dart';
 import 'package:flutter/material.dart';
@@ -29,6 +30,9 @@ class _TabsScreenState extends State<TabsScreen> {
         title: Text(
           _screens[_selectedScreenIndex]['title'] as String,
         ),
+      ),
+      drawer: MainDrawer(
+        
       ),
       body: _screens[_selectedScreenIndex]['screen'] as Widget,
       bottomNavigationBar: BottomNavigationBar(
