@@ -14,7 +14,7 @@ class _TabsScreenState extends State<TabsScreen> {
   final List<Map<String, Object>> _screens = [
     {'title': 'Lista de Categorias', 'screen': CategoriesScreen()},
     {'title': 'Meus Favoritos', 'screen': FavoriteScreen()},
-  ].toList();
+  ];
 
   _selectScreen(int index) {
     setState(() {
