@@ -3,6 +3,10 @@ import 'package:app_restaurante/data/dummy_data.dart';
 import 'package:app_restaurante/models/category.dart';
 import 'package:flutter/material.dart';
 
+/**
+ * 
+ * Enilson Filho
+ */
 class CategoriesMealsScreen extends StatelessWidget {
 
   @override

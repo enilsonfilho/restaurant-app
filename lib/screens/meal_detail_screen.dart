@@ -1,6 +1,10 @@
 import 'package:app_restaurante/models/meals.dart';
 import 'package:flutter/material.dart';
 
+/**
+ * 
+ * Enilson Filho
+ */
 class MealDeatilScreen extends StatelessWidget {
   Widget _createSectionTitle(BuildContext context, String title) {
     return Container(

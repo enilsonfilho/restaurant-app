@@ -1,6 +1,10 @@
 import 'package:app_restaurante/utils/app_routers.dart';
 import 'package:flutter/material.dart';
 
+/**
+ * 
+ * Enilson Filho
+ */
 class MainDrawer extends StatelessWidget {
 
   Widget _createItem(IconData icon, String label, Function()? onTap) {

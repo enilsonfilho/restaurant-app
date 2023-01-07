@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+/**
+ * 
+ * Enilson Filho
+ */
 class Category {
 
   final String id;

@@ -2,6 +2,10 @@ import 'package:app_restaurante/models/meals.dart';
 import 'package:app_restaurante/utils/app_routers.dart';
 import 'package:flutter/material.dart';
 
+/**
+ * 
+ * Enilson Filho
+ */
 class MealItem extends StatelessWidget {
 
   final Meal meal;

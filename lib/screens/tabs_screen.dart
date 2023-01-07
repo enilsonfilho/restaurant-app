@@ -3,6 +3,10 @@ import 'package:app_restaurante/screens/categories_screen.dart';
 import 'package:app_restaurante/screens/favorite_screen.dart';
 import 'package:flutter/material.dart';
 
+/**
+ * 
+ * Enilson Filho
+ */
 class TabsScreen extends StatefulWidget {
 
   @override

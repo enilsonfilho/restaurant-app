@@ -2,6 +2,10 @@ import 'package:app_restaurante/components/category_item.dart';
 import 'package:app_restaurante/data/dummy_data.dart';
 import 'package:flutter/material.dart';
 
+/**
+ * 
+ * Enilson Filho
+ */
 class CategoriesScreen extends StatelessWidget {
 
   @override

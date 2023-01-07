@@ -1,6 +1,10 @@
 import 'package:app_restaurante/components/main_drawer.dart';
 import 'package:flutter/material.dart';
 
+/**
+ * 
+ * Enilson Filho
+ */
 class SettingsScreen extends StatelessWidget {
 
   @override

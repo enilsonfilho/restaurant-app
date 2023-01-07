@@ -2,6 +2,10 @@ import 'package:app_restaurante/models/category.dart';
 import 'package:app_restaurante/utils/app_routers.dart';
 import 'package:flutter/material.dart';
 
+/**
+ * 
+ * Enilson Filho
+ */
 class CategoryItem extends StatelessWidget {
 
   final Category category;

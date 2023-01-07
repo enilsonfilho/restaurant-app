@@ -2,6 +2,10 @@ import 'package:app_restaurante/models/category.dart';
 import 'package:app_restaurante/models/meals.dart';
 import 'package:flutter/material.dart';
  
+/**
+ * 
+ * Enilson Filho
+ */
 // ignore: constant_identifier_names
 const DUMMY_CATEGORIES = [
   Category(
