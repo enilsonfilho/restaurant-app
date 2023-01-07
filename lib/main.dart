@@ -5,6 +5,10 @@ import 'package:app_restaurante/screens/tabs_screen.dart';
 import 'package:app_restaurante/utils/app_routers.dart';
 import 'package:flutter/material.dart';
 
+/**
+ * 
+ * Enilson Filho
+ */
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
