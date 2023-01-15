@@ -92,7 +92,7 @@ class MealDeatilScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.star),
         onPressed: (){
-          Navigator.of(context).pop(meal);
+          Navigator.of(context).pop(meal.title);
         },
       ),
     );
