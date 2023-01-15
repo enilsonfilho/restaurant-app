@@ -34,14 +34,14 @@ class MainDrawer extends StatelessWidget {
             height: 120,
             width: double.infinity,
             padding: EdgeInsets.all(20),
-            color: Colors.amber,
+            color: Colors.pink,
             alignment: Alignment.bottomRight,
             child: Text(
               'Vamos Cozinhar?',
               style: TextStyle(
                 fontWeight: FontWeight.w900,
                 fontSize: 30,
-                color: Colors.pink,
+                color: Colors.white,
               ),
             ),
           ),

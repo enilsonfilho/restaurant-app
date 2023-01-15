@@ -1,6 +1,6 @@
 import 'package:app_restaurante/components/meal_item.dart';
-import 'package:app_restaurante/data/dummy_data.dart';
 import 'package:app_restaurante/models/category.dart';
+import 'package:app_restaurante/models/meals.dart';
 import 'package:flutter/material.dart';
 
 /**
@@ -9,11 +9,15 @@ import 'package:flutter/material.dart';
  */
 class CategoriesMealsScreen extends StatelessWidget {
 
+  final List<Meal> meals;
+
+  const CategoriesMealsScreen(this.meals);
+
   @override
   Widget build(BuildContext context) {
     final category = ModalRoute.of(context)!.settings.arguments as Category;
 
-    final categoryMeals = DUMMY_MEALS.where((meal) {
+    final categoryMeals = meals.where((meal) {
       return meal.categories.contains(category.id);
     }).toList();
 
